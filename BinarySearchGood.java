@@ -29,4 +29,9 @@ public class BinarySearchGood {
         }
         return -1;
     }
+    public static void main (String[] args)
+    { BinarySearchGood binS = new BinarySearchGood();
+      System.out.println(binS.search(new int[] {5, 6, 8, 10, 12}, 6));
+
+    }
 }
